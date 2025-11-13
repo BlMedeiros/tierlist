@@ -1,0 +1,21 @@
+#tier-container {
+    display: flex;
+    flex-direction: column;
+    background: gray;
+}
+
+.tier-row {
+    display: flex;
+    flex-direction: row;
+    border: 1px black;
+}
+
+.label-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tier-sort {
+    flex: 1;
+}
