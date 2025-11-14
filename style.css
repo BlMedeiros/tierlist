@@ -7,13 +7,16 @@
 .tier-row {
     display: flex;
     flex-direction: row;
-    border: 1px black;
+    border-top: solid 1px #000;
+    min-height: 80px;
 }
 
 .label-holder {
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 80px;
+    width: 100px;
 }
 
 .tier-sort {
